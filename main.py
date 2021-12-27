@@ -114,7 +114,7 @@ class BFS():
 
         self.search(self.frontier.remove())
 
-bfs = BFS("map.txt", wall = "█", path = " ", goal = "=", start  = "+", searched = "░", shortest = "▓")
+bfs = BFS("example_map.txt", wall = "█", path = " ", goal = "=", start  = "+", searched = "░", shortest = "▓")
 
 bfs.search(bfs.start_node)
 bfs.print_map(show_explored = True)
