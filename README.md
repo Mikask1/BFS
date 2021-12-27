@@ -1,2 +1,2 @@
 # BFS
-A simple implementation of BFS to search for the shortest path of a maze in a *.txt file
+- A simple implementation of Breadth-First Search algorithm to search for the shortest path of a maze in a *.txt file
